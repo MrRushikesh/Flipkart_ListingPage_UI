@@ -1,0 +1,2157 @@
+body{
+    margin:auto;
+    /* padding: auto; */
+    /* height: auto; */
+}
+
+
+
+/* header section */
+header{
+    height:60px;
+    width:100%;
+    background-color:#2874f0;
+    /* float:left; */
+}
+
+button{
+    height:38px;
+    width:100px;
+    background-color: white;
+    color:#2874f0;
+    /* border:none; */
+    /* display: inline-block; */
+}
+
+#login{
+    background-color: white;
+}
+
+#register{
+    background-color: white;
+}
+
+#icon{
+    float:left;
+    display:flex;
+}
+
+#icon > h1{
+    margin:5%;
+    color:yellow;
+}
+
+#icon > button{
+    margin: 5%;
+}
+
+#social{
+    float:right;
+    margin-top:12px;
+    margin-right:3%;
+}
+
+#searchBar{
+    /* border:1px solid black; */
+    height:38px;
+    width:30%;
+    float:left;
+    text-align:center;
+    
+}
+
+#searchBar > input{
+    border:2px solid black;
+    height:33px;
+    width:100%;
+    margin-top:11px;
+    margin-left:10%;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Listing page Start from Here */
+
+
+#main{
+    /* height:800px; */
+    width:100%;
+    /* border:2px solid yellow; */
+    display: inline-block;
+    /* margin-top:1%; */
+}
+
+#filter{
+    /* height:600px; */
+    width:20%;
+    /* border:2px solid red;  */
+    background-color:whitesmoke;
+    float:left;
+    margin-left:1%;
+    /* margin-bottom:1%; */
+    margin-top:1.5%;
+    box-shadow: 10px 20px 5px gray ;
+    /* position:absolute; */
+    /* display: inline-block; */
+}
+
+
+
+#heading{
+    margin-top:5px;
+}
+
+#heading > span{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:4%;
+    
+}
+
+.categories{
+    margin-left:4%;
+}
+
+
+.sum{
+    display: block;
+    /* color:aquamarine */
+    margin-left:8%;
+    margin-top:1%;
+}
+
+
+  /* PRICE */
+
+
+.price{
+    margin-left:4%;
+    
+}
+
+.priceSpan{
+    display: block;
+    
+}
+
+#priceOption{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+    /* BRAND */
+
+.brandSpan{
+    display: block;
+   
+    /* margin-bottom: 2%; */
+    margin-left:5%;
+    
+}
+
+.brandContainer{
+    margin-top:5px;
+}
+
+.typebrand{
+    margin-left:5%;
+    
+}
+
+    /* CUSTOMER RATING */
+
+.custRating{
+    margin-left:4%;
+}
+
+.custRatingContainer{
+    margin-top:5px;
+}
+
+
+    /* GST INVOICE AVAILABLE */
+
+.gst{
+    margin-left:4%;
+}
+
+.gstContainer{
+    margin-top:4px;
+}
+
+
+    /* DISCOUNT */
+
+.discount{
+    margin-left:4%;
+    margin-bottom: 2%;
+
+}
+
+.discountContainer{
+    margin-top:5px;
+}
+
+
+/* Details section Start from Here */
+
+#content{
+    /* height:600px; */
+    width:75%;
+    /* border: 2px solid green; */
+    float:left;
+    margin-left:1%;
+    margin-bottom:1%;
+    /* position:absolute; */
+    /* display: inline-block; */
+}
+
+.contentMain{
+    height:290px;
+    width:100%;
+    /* border:2px solid yellow; */
+    margin-top:2%;
+    background-color: whitesmoke;
+    box-shadow: 10px 20px 5px gray;
+}
+
+.contentImg{
+    height:290px;
+    width:20%;
+    /* border:2px solid red; */
+    float:left;
+}
+
+
+.contentImg > img{
+    height:240px;
+    width:90%;
+    margin-left:5%;
+    margin-top:5%;
+
+}
+
+.inputType{
+    margin-left:8%;
+    margin-top:3%;
+}
+
+.contentDetails{
+    height:290px;
+    width:62%;
+    /* border:2px solid purple; */
+    float:left;
+    margin-left:1%;
+    
+
+}
+
+.contentName{
+    margin-top:1%;
+}
+
+.contentHeading{
+    font-size: 25px;
+    font-weight: bold;   
+}
+
+.contentRating{
+    display:block;
+    width:6.5%;
+    margin-left:3%;
+    margin-top:1%;
+    font-size: 18px;
+    color:white;
+    background-color:green;
+}
+
+.productDetails{
+    font-size:17px;
+    font-weight: lighter;
+}
+
+
+.contentPrice{
+    height:290px;
+    width:13%;
+    /* border:2px solid brown; */
+    float:left;
+    margin-left:1%;
+}
+
+.amount{
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    margin-top:4%;
+}
+
+.amount > img {
+    height: 21px;
+    width: 21px;
+}
+
+.freeD{
+    margin-top:5%;
+    display: block;
+    margin-left:5%;
+}
+.bankO{
+    display: block;
+    color:darkgreen;
+    margin-top:3%;
+    margin-left:5%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer Section */
+footer{
+    /* margin-top:3%; */
+    height:360px;
+    width:100%;
+    background-color:#172337;
+    color:white;
+    /* text-align:center; */
+    position:absolute;
+}
+
+#mainFooter{
+    /* border:2px solid red; */
+    height: 240px;
+    width:96%;
+    margin-left:2%;
+    margin-top:2%;
+}
+
+.about{
+    /* border:2px solid yellow; */
+    height:230px;
+    width:13%;
+    /* display: inline-block; */
+    float:left;
+    margin-left:5px;
+    /* margin-left:2%; */
+}
+
+.mainText{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 4%;
+}
+
+.subText{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.address{
+    /* margin-left:3%; */
+    width:17%;
+}
+
+.mail{
+    margin-left:10%;
+    border-right:1px solid gray;
+}
+
+.mailus{
+    margin-left:2%;
+}
+
+.block{
+    display:block;
+}
+
+#subFooter{
+    height:50px;
+    width:100%;
+    /* border: 1px solid red; */
+    position:absolute;
+}
+
+.subFootText{
+    height:50px;
+    width:15%;
+    /* border:1px solid green; */
+    float:left;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+
+
+@media screen and (max-width:1600px){
+    body{
+        /* background-color: purple; */
+    }
+
+    
+}
+
+@media screen and (max-width:1400px){
+    body{
+        /* background-color: gray; */
+    }
+
+    /* header section */
+header{
+    height:60px;
+    width:100%;
+    background-color:#2874f0;
+    /* float:left; */
+}
+
+button{
+    height:38px;
+    width:100px;
+    background-color: white;
+    color:#2874f0;
+    /* border:none; */
+    /* display: inline-block; */
+}
+
+#login{
+    background-color: white;
+}
+
+#register{
+    background-color: white;
+}
+
+#icon{
+    float:left;
+    display:flex;
+}
+
+#icon > h1{
+    margin:5%;
+    color:yellow;
+}
+
+#icon > button{
+    margin: 5%;
+}
+
+#social{
+    float:right;
+    margin-top:12px;
+    margin-right:3%;
+}
+
+
+/* Listing page Start from Here */
+
+
+#main{
+    /* height:800px; */
+    width:100%;
+    /* border:2px solid yellow; */
+    display: inline-block;
+    /* margin-top:1%; */
+}
+
+#filter{
+    /* height:600px; */
+    width:25%;
+    /* border:2px solid red;  */
+    background-color:whitesmoke;
+    float:left;
+    margin-left:1%;
+    /* margin-bottom:1%; */
+    margin-top:1.5%;
+    box-shadow: 10px 20px 5px gray ;
+    /* position:absolute; */
+    /* display: inline-block; */
+}
+
+
+
+#heading{
+    margin-top:5px;
+}
+
+#heading > span{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:4%;
+    
+}
+
+.categories{
+    margin-left:4%;
+}
+
+
+.sum{
+    display: block;
+    /* color:aquamarine */
+    margin-left:8%;
+    margin-top:1%;
+}
+
+
+  /* PRICE */
+
+
+.price{
+    margin-left:4%;
+    
+}
+
+.priceSpan{
+    display: block;
+    
+}
+
+#priceOption{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+    /* BRAND */
+
+.brandSpan{
+    display: block;
+   
+    /* margin-bottom: 2%; */
+    margin-left:5%;
+    
+}
+
+.brandContainer{
+    margin-top:5px;
+}
+
+.typebrand{
+    margin-left:5%;
+    
+}
+
+    /* CUSTOMER RATING */
+
+.custRating{
+    margin-left:4%;
+}
+
+.custRatingContainer{
+    margin-top:5px;
+}
+
+
+    /* GST INVOICE AVAILABLE */
+
+.gst{
+    margin-left:4%;
+}
+
+.gstContainer{
+    margin-top:4px;
+}
+
+
+    /* DISCOUNT */
+
+.discount{
+    margin-left:4%;
+    margin-bottom: 2%;
+
+}
+
+.discountContainer{
+    margin-top:5px;
+}
+
+
+
+/* Details section Start from Here */
+
+#content{
+    /* height:600px; */
+    width:70%;
+    /* border: 2px solid green; */
+    float:left;
+    margin-left:1%;
+    margin-bottom:1%;
+    /* position:absolute; */
+    /* display: inline-block; */
+}
+
+.contentMain{
+    height:270px;
+    width:100%;
+    /* border:2px solid yellow; */
+    margin-top:2%;
+    background-color: whitesmoke;
+    box-shadow: 10px 20px 5px gray;
+}
+
+.contentImg{
+    height:270px;
+    width:23%;
+    /* border:2px solid red; */
+    float:left;
+}
+
+
+.contentImg > img{
+    height:220px;
+    width:90%;
+    margin-left:5%;
+    margin-top:5%;
+
+}
+
+.inputType{
+    margin-left:8%;
+    margin-top:3%;
+}
+
+.contentDetails{
+    height:220px;
+    width:60%;
+    /* border:2px solid purple; */
+    float:left;
+    margin-left:1%;
+    
+
+}
+
+.contentName{
+    margin-top:1%;
+}
+
+.contentHeading{
+    font-size: 25px;
+    font-weight: bold;   
+}
+
+.contentRating{
+    display:block;
+    width:11%;
+    margin-left:3%;
+    margin-top:1%;
+    font-size: 18px;
+    color:white;
+    background-color:green;
+}
+
+.productDetails{
+    font-size:17px;
+    font-weight: lighter;
+}
+
+
+.contentPrice{
+    height:250px;
+    width:13%;
+    /* border:2px solid brown; */
+    float:left;
+    margin-left:1%;
+}
+
+.amount{
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    margin-top:10%;
+}
+.freeD{
+    margin-top:5%;
+    display: block;
+    margin-left:5%;
+}
+.bankO{
+    display: block;
+    color:darkgreen;
+    margin-top:3%;
+    margin-left:5%;
+}
+
+
+/* Footer Section */
+footer{
+    /* margin-top:3%; */
+    height:330px;
+    width:100%;
+    background-color:#172337;
+    color:white;
+    /* text-align:center; */
+    position:absolute;
+}
+
+#mainFooter{
+    /* border:2px solid red; */
+    height: 230px;
+    width:96%;
+    margin-left:2%;
+    margin-top:2%;
+}
+
+.about{
+    /* border:2px solid yellow; */
+    height:230px;
+    width:13%;
+    /* display: inline-block; */
+    float:left;
+    margin-left:5px;
+    /* margin-left:2%; */
+}
+
+.mainText{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 6%;
+}
+
+.subText{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.address{
+    /* margin-left:3%; */
+    width:17%;
+}
+
+.mail{
+    margin-left:10%;
+    border-right:1px solid gray;
+}
+
+.mailus{
+    margin-left:2%;
+}
+
+.block{
+    display:block;
+}
+
+#subFooter{
+    height:20px;
+    width:100%;
+    /* border: 1px solid red; */
+    position:absolute;
+}
+
+.subFootText{
+    height:30px;
+    width:17%;
+    /* border:1px solid green; */
+    float:left;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+    body{
+        /* background-color: aquamarine; */
+    }
+
+    /* header section */
+header{
+    height:60px;
+    width:100%;
+    background-color:#2874f0;
+    /* float:left; */
+}
+
+button{
+    height:38px;
+    width:100px;
+    background-color: white;
+    color:#2874f0;
+    /* border:none; */
+    /* display: inline-block; */
+}
+
+#login{
+    background-color: white;
+}
+
+#register{
+    background-color: white;
+}
+
+#icon{
+    float:left;
+    display:flex;
+}
+
+#icon > h1{
+    margin:5%;
+    color:yellow;
+}
+
+#icon > button{
+    margin: 5%;
+}
+
+#social{
+    float:right;
+    margin-top:12px;
+    margin-right:3%;
+}
+
+
+/* Listing page Start from Here */
+
+
+#main{
+    /* height:800px; */
+    width:100%;
+    /* border:2px solid yellow; */
+    display: inline-block;
+    /* margin-top:1%; */
+}
+
+#filter{
+    /* height:600px; */
+    width:27%;
+    /* border:2px solid red;  */
+    background-color:whitesmoke;
+    float:left;
+    margin-left:1%;
+    /* margin-bottom:1%; */
+    margin-top:1.5%;
+    box-shadow: 10px 20px 5px gray ;
+    /* position:absolute; */
+    /* display: inline-block; */
+}
+
+
+
+#heading{
+    margin-top:5px;
+}
+
+#heading > span{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:4%;
+    
+}
+
+.categories{
+    margin-left:4%;
+}
+
+
+.sum{
+    display: block;
+    /* color:aquamarine */
+    margin-left:8%;
+    margin-top:1%;
+}
+
+
+  /* PRICE */
+
+
+.price{
+    margin-left:4%;
+    
+}
+
+.priceSpan{
+    display: block;
+    
+}
+
+#priceOption{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+    /* BRAND */
+
+.brandSpan{
+    display: block;
+   
+    /* margin-bottom: 2%; */
+    margin-left:5%;
+    
+}
+
+.brandContainer{
+    margin-top:5px;
+}
+
+.typebrand{
+    margin-left:5%;
+    
+}
+
+    /* CUSTOMER RATING */
+
+.custRating{
+    margin-left:4%;
+}
+
+.custRatingContainer{
+    margin-top:5px;
+}
+
+
+    /* GST INVOICE AVAILABLE */
+
+.gst{
+    margin-left:4%;
+}
+
+.gstContainer{
+    margin-top:4px;
+}
+
+
+    /* DISCOUNT */
+
+.discount{
+    margin-left:4%;
+    margin-bottom: 2%;
+
+}
+
+.discountContainer{
+    margin-top:5px;
+}
+
+
+
+/* Details section Start from Here */
+
+#content{
+    /* height:600px; */
+    width:70%;
+    /* border: 2px solid green; */
+    float:left;
+    margin-left:1%;
+    margin-bottom:1%;
+    /* position:absolute; */
+    /* display: inline-block; */
+}
+
+.contentMain{
+    height:260px;
+    width:100%;
+    /* border:2px solid yellow; */
+    margin-top:2%;
+    background-color: whitesmoke;
+    box-shadow: 10px 20px 5px gray;
+}
+
+.contentImg{
+    height:260px;
+    width:23%;
+    /* border:2px solid red; */
+    float:left;
+}
+
+
+.contentImg > img{
+    height:200px;
+    width:90%;
+    margin-left:5%;
+    margin-top:5%;
+
+}
+
+.inputType{
+    margin-left:8%;
+    margin-top:3%;
+}
+
+.contentDetails{
+    height:200px;
+    width:55%;
+    /* border:2px solid purple; */
+    float:left;
+    margin-left:1%;
+    
+
+}
+
+.contentName{
+    margin-top:1%;
+}
+
+.contentHeading{
+    font-size: 22px;
+    font-weight: bold;   
+}
+
+.contentRating{
+    display:block;
+    width:11%;
+    margin-left:3%;
+    margin-top:1%;
+    font-size: 16px;
+    color:white;
+    background-color:green;
+}
+
+.productDetails{
+    font-size:16px;
+    font-weight: lighter;
+}
+
+
+.contentPrice{
+    height:250px;
+    width:15%;
+    /* border:2px solid brown; */
+    float:left;
+    margin-left:1%;
+}
+
+.amount{
+    font-size: 26px;
+    font-weight: bold;
+    display: block;
+    margin-top:10%;
+}
+.freeD{
+    margin-top:5%;
+    display: block;
+    margin-left:5%;
+}
+.bankO{
+    display: block;
+    color:darkgreen;
+    margin-top:3%;
+    margin-left:5%;
+}
+
+
+/* Footer Section */
+footer{
+    /* margin-top:3%; */
+    height:330px;
+    width:100%;
+    background-color:#172337;
+    color:white;
+    /* text-align:center; */
+    position:absolute;
+}
+
+#mainFooter{
+    /* border:2px solid red; */
+    height: 230px;
+    width:96%;
+    margin-left:2%;
+    margin-top:2%;
+}
+
+.about{
+    /* border:2px solid yellow; */
+    height:230px;
+    width:13%;
+    /* display: inline-block; */
+    float:left;
+    margin-left:5px;
+    /* margin-left:2%; */
+}
+
+.mainText{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 6%;
+}
+
+.subText{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.address{
+    /* margin-left:3%; */
+    width:20%;
+}
+
+.mail{
+    margin-left:2%;
+    border-right:1px solid gray;
+    /* float:left; */
+}
+
+.mailus{
+    margin-left:2%;
+    /* float:left; */
+}
+
+.block{
+    display:block;
+}
+
+#subFooter{
+    height:20px;
+    width:100%;
+    /* border: 1px solid red; */
+    position:absolute;
+}
+
+.subFootText{
+    height:20px;
+    width:15%;
+    /* border:1px solid green; */
+    float:left;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1000px){
+    body{
+        /* background-color: bisque; */
+    }
+
+    /* Details section Start from Here */
+
+#content{
+    /* height:600px; */
+    width:70%;
+    /* border: 2px solid green; */
+    float:left;
+    margin-left:1%;
+    margin-bottom:1%;
+    /* position:absolute; */
+    /* display: inline-block; */
+}
+
+.contentMain{
+    height:260px;
+    width:100%;
+    /* border:2px solid yellow; */
+    margin-top:2%;
+    background-color: whitesmoke;
+    box-shadow: 10px 20px 5px gray;
+}
+
+.contentImg{
+    height:260px;
+    width:23%;
+    /* border:2px solid red; */
+    float:left;
+}
+
+
+.contentImg > img{
+    height:180px;
+    width:90%;
+    margin-left:5%;
+    margin-top:5%;
+
+}
+
+.inputType{
+    margin-left:8%;
+    margin-top:3%;
+}
+
+.contentDetails{
+    height:200px;
+    width:55%;
+    /* border:2px solid purple; */
+    float:left;
+    margin-left:1%;
+    
+
+}
+
+.contentName{
+    margin-top:1%;
+}
+
+.contentHeading{
+    font-size: 18px;
+    font-weight: bold;   
+}
+
+.contentRating{
+    display:block;
+    width:15%;
+    margin-left:3%;
+    margin-top:1%;
+    font-size: 16px;
+    color:white;
+    background-color:green;
+}
+
+.productDetails{
+    font-size:15px;
+    font-weight: lighter;
+}
+
+
+.contentPrice{
+    height:250px;
+    width:15%;
+    /* border:2px solid brown; */
+    float:left;
+    margin-left:1%;
+}
+
+.amount{
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+    margin-top:10%;
+}
+
+.amount > img {
+    height: 18px;
+    width: 18px;
+}
+
+
+.freeD{
+    margin-top:5%;
+    display: block;
+    margin-left:5%;
+}
+.bankO{
+    display: block;
+    color:darkgreen;
+    margin-top:3%;
+    margin-left:5%;
+}
+
+
+/* Footer Section */
+footer{
+    /* margin-top:3%; */
+    height:350px;
+    width:100%;
+    background-color:#172337;
+    color:white;
+    /* text-align:center; */
+    position:absolute;
+}
+
+#mainFooter{
+    /* border:2px solid red; */
+    height: 255px;
+    width:96%;
+    margin-left:2%;
+    margin-top:2%;
+}
+
+.about{
+    /* border:2px solid yellow; */
+    height:230px;
+    width:13%;
+    /* display: inline-block; */
+    float:left;
+    margin-left:5px;
+    /* margin-left:2%; */
+}
+
+.mainText{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 6%;
+}
+
+.subText{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.address{
+    /* margin-left:3%; */
+    width:18%;
+}
+
+.mail{
+    margin-left:5%;
+    border-right:1px solid gray;
+    /* float:left; */
+}
+
+.mailus{
+    margin-left:2%;
+    /* float:left; */
+}
+
+.block{
+    display:block;
+}
+
+#subFooter{
+    height:20px;
+    width:100%;
+    /* border: 1px solid red; */
+    position:absolute;
+}
+
+.subFootText{
+    height:20px;
+    width:15%;
+    /* border:1px solid green; */
+    float:left;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px){
+    body{
+        /* background-color: red; */
+    }
+
+    /* header section */
+header{
+    height:55px;
+    width:100%;
+    background-color:#2874f0;
+    /* float:left; */
+}
+
+button{
+    height:34px;
+    width:80px;
+    background-color: white;
+    color:#2874f0;
+    /* border:none; */
+    /* display: inline-block; */
+}
+
+#login{
+    background-color: white;
+}
+
+#register{
+    background-color: white;
+}
+
+#icon{
+    float:left;
+    display:flex;
+}
+
+#icon > h1{
+    margin:5%;
+    color:yellow;
+}
+
+#icon > button{
+    margin: 7%;
+}
+
+#social{
+    float:right;
+    margin-top:12px;
+    margin-right:3%;
+}
+
+#searchBar{
+    /* border:1px solid black; */
+    height:36px;
+    width:30%;
+    float:left;
+    text-align:center;
+    
+}
+
+#searchBar > input{
+    border:2px solid black;
+    height:28px;
+    width:100%;
+    margin-top:13px;
+    margin-left:10%;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Listing page Start from Here */
+
+
+#main{
+    /* height:800px; */
+    width:100%;
+    /* border:2px solid yellow; */
+    display: inline-block;
+    /* margin-top:1%; */
+}
+
+#filter{
+    /* height:600px; */
+    width:23%;
+    /* border:2px solid red;  */
+    background-color:whitesmoke;
+    float:left;
+    margin-left:1%;
+    /* margin-bottom:1%; */
+    margin-top:1.5%;
+    box-shadow: 10px 20px 5px gray ;
+    /* position:absolute; */
+    /* display: inline-block; */
+}
+
+
+
+#heading{
+    margin-top:5px;
+}
+
+#heading > span{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:4%;
+    
+}
+
+.categories{
+    margin-left:4%;
+}
+
+
+.sum{
+    display: block;
+    /* color:aquamarine */
+    margin-left:8%;
+    margin-top:1%;
+}
+
+
+  /* PRICE */
+
+
+.price{
+    margin-left:4%;
+    
+}
+
+.priceSpan{
+    display: block;
+    
+}
+
+#priceOption{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+    /* BRAND */
+
+.brandSpan{
+    display: block;
+   
+    /* margin-bottom: 2%; */
+    margin-left:5%;
+    
+}
+
+.brandContainer{
+    margin-top:5px;
+}
+
+.typebrand{
+    margin-left:5%;
+    
+}
+
+    /* CUSTOMER RATING */
+
+.custRating{
+    margin-left:4%;
+}
+
+.custRatingContainer{
+    margin-top:5px;
+}
+
+
+    /* GST INVOICE AVAILABLE */
+
+.gst{
+    margin-left:4%;
+}
+
+.gstContainer{
+    margin-top:4px;
+}
+
+
+    /* DISCOUNT */
+
+.discount{
+    margin-left:4%;
+    margin-bottom: 2%;
+
+}
+
+.discountContainer{
+    margin-top:5px;
+}
+
+
+/* Details section Start from Here */
+
+#content{
+    /* height:600px; */
+    width:75%;
+    /* border: 2px solid green; */
+    float:left;
+    margin-left:1%;
+    margin-bottom:1%;
+    /* position:absolute; */
+    /* display: inline-block; */
+}
+
+.contentMain{
+    height:280px;
+    width:100%;
+    /* border:2px solid yellow; */
+    /* margin-top:2%; */
+    /* margin-bottom: 4%; */
+    background-color: whitesmoke;
+    box-shadow: 5px 10px 3px gray;
+    /* position: inline-block; */
+}
+
+.contentImg{
+    height:200px;
+    width:20%;
+    /* border:2px solid red; */
+    float:left;
+}
+
+
+.contentImg > img{
+    height:200px;
+    width:95%;
+    margin-left:5%;
+    /* margin-top:5%; */
+
+}
+
+.inputType{
+    margin-left:8%;
+    margin-top:2%;
+}
+
+.contentDetails{
+    height:290px;
+    width:62%;
+    /* border:2px solid purple; */
+    float:left;
+    margin-left:1%;
+    
+
+}
+
+.contentName{
+    margin-top:1%;
+}
+
+.contentHeading{
+    /* margin-left: 3%; */
+    font-size: 18px;
+    font-weight: bold;   
+}
+
+.contentRating{
+    display:block;
+    width:17%;
+    margin-left:3%;
+    margin-top:1%;
+    font-size: 16px;
+    color:white;
+    background-color:green;
+}
+
+.productDetails{
+    font-size:13px;
+    font-weight: lighter;
+}
+
+
+.contentPrice{
+    height:290px;
+    width:15%;
+    /* border:2px solid brown; */
+    float:left;
+    margin-left:1%;
+}
+
+
+
+.amount{
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+    margin-top:4%;
+}
+
+.amount > img{
+    height:12px;
+    width:12px;
+}
+
+
+.freeD{
+    margin-top:5%;
+    display: block;
+    margin-left:5%;
+    font-size: 13px;
+}
+.bankO{
+    display: block;
+    color:darkgreen;
+    margin-top:3%;
+    margin-left:5%;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer Section */
+footer{
+    /* margin-top:3%; */
+    height:340px;
+    width:100%;
+    background-color:#172337;
+    color:white;
+    /* text-align:center; */
+    position:absolute;
+}
+
+#mainFooter{
+    /* border:2px solid red; */
+    height: 240px;
+    width:96%;
+    margin-left:2%;
+    margin-top:2%;
+}
+
+.about{
+    /* border:2px solid yellow; */
+    height:230px;
+    width:13%;
+    /* display: inline-block; */
+    float:left;
+    margin-left:5px;
+    /* margin-left:2%; */
+}
+
+.mainText{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 4%;
+}
+
+.subText{
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.address{
+    /* margin-left:3%; */
+    width:17%;
+}
+
+.mail{
+    margin-left:5%;
+    border-right:1px solid gray;
+}
+
+.mailus{
+    margin-left:2%;
+}
+
+.block{
+    display:block;
+}
+
+#subFooter{
+    height:50px;
+    width:100%;
+    /* border: 1px solid red; */
+    position:absolute;
+}
+
+.subFootText{
+    height:50px;
+    width:15%;
+    /* border:1px solid green; */
+    float:left;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+    body{
+        /* background-color: yellow; */
+    }
+
+    
+
+    /* header section */
+header{
+    height:50px;
+    width:100%;
+    background-color:#2874f0;
+    /* float:left; */
+}
+
+button{
+    height:32px;
+    width:60px;
+    background-color: white;
+    color:#2874f0;
+    /* border:none; */
+    /* display: inline-block; */
+}
+
+#login{
+    background-color: white;
+}
+
+#register{
+    background-color: white;
+}
+
+#icon{
+    float:left;
+    display:flex;
+}
+
+#icon > h1{
+    margin:3%;
+    color:yellow;
+}
+
+#icon > button{
+    margin-top: 7%;
+    margin-right: 5%;
+    margin-left:2%;
+}
+
+#social{
+    float:right;
+    margin-top:12px;
+    margin-right:3%;
+}
+
+#searchBar{
+    /* border:1px solid black; */
+    height:38px;
+    width:30%;
+    float:left;
+    text-align:center;
+    
+}
+
+#searchBar > input{
+    border:2px solid black;
+    height:27px;
+    width:100%;
+    margin-top:11px;
+    margin-left:10%;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Listing page Start from Here */
+
+
+#main{
+    /* height:800px; */
+    width:100%;
+    /* border:2px solid yellow; */
+    display: inline-block;
+    /* margin-top:1%; */
+}
+
+#filter{
+    /* height:600px; */
+    width:20%;
+    /* border:2px solid red;  */
+    background-color:whitesmoke;
+    float:left;
+    margin-left:1%;
+    /* margin-bottom:1%; */
+    margin-top:1.5%;
+    box-shadow: 10px 20px 5px gray ;
+    /* position:absolute; */
+    /* display: inline-block; */
+}
+
+
+
+#heading{
+    margin-top:5px;
+}
+
+#heading > span{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:4%;
+    
+}
+
+.categories{
+    margin-left:4%;
+    font-size:small;
+}
+
+
+.sum{
+    display: block;
+    /* color:aquamarine */
+    margin-left:8%;
+    margin-top:1%;
+}
+
+
+  /* PRICE */
+
+
+.price{
+    margin-left:4%;
+    font-size: small;
+    
+}
+
+.priceSpan{
+    display: block;
+    
+}
+
+#priceOption{
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size: small;
+}
+
+    /* BRAND */
+
+.brandSpan{
+    display: block;
+   
+    /* margin-bottom: 2%; */
+    margin-left:5%;
+    font-size:small;
+    
+}
+
+.brandContainer{
+    margin-top:5px;
+    font-size: smalls;
+}
+
+.typebrand{
+    margin-left:5%;
+    
+}
+
+    /* CUSTOMER RATING */
+
+.custRating{
+    margin-left:4%;
+    font-size: small;
+}
+
+.custRatingContainer{
+    margin-top:5px;
+    font-size: small;
+}
+
+
+    /* GST INVOICE AVAILABLE */
+
+.gst{
+    margin-left:4%;
+    font-size: small;
+}
+
+.gstContainer{
+    margin-top:4px;
+    font-size: small;
+}
+
+
+    /* DISCOUNT */
+
+.discount{
+    margin-left:4%;
+    margin-bottom: 2%;
+    font-size: small;
+
+}
+
+.discountContainer{
+    margin-top:5px;
+}
+
+
+/* Details section Start from Here */
+
+#content{
+    /* height:600px; */
+    width:75%;
+    /* border: 2px solid green; */
+    float:left;
+    margin-left:1%;
+    margin-bottom:1%;
+    /* position:absolute; */
+    /* display: inline-block; */
+}
+
+.contentMain{
+    height:290px;
+    width:100%;
+    /* border:2px solid yellow; */
+    margin-top:2%;
+    background-color: whitesmoke;
+    box-shadow: 10px 20px 5px gray;
+}
+
+.contentImg{
+    height:280px;
+    width:20%;
+    /* border:2px solid red; */
+    float:left;
+}
+
+
+.contentImg > img{
+    height:200px;
+    width:90%;
+    margin-left:5%;
+    margin-top:5%;
+
+}
+
+.inputType{
+    margin-left:8%;
+    margin-top:3%;
+}
+
+.contentDetails{
+    height:290px;
+    width:62%;
+    /* border:2px solid purple; */
+    float:left;
+    margin-left:1%;
+    
+
+}
+
+.contentName{
+    margin-top:1%;
+}
+
+.contentHeading{
+    font-size: 15px;
+    font-weight: bold;   
+}
+
+.contentRating{
+    display:block;
+    width:16%;
+    margin-left:2%;
+    margin-top:1%;
+    font-size: 12px;
+    color:white;
+    background-color:green;
+}
+
+.productDetails{
+    font-size:13px;
+    font-weight: lighter;
+}
+
+
+.contentPrice{
+    height:290px;
+    width:13%;
+    /* border:2px solid brown; */
+    float:left;
+    margin-left:1%;
+}
+
+.amount{
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    margin-top:4%;
+}
+
+.amount > img{
+    width: 10px;
+    height: 10px;
+}
+.freeD{
+    margin-top:5%;
+    display: block;
+    margin-left:5%;
+}
+.bankO{
+    display: block;
+    color:darkgreen;
+    margin-top:3%;
+    margin-left:5%;
+}
+
+
+/* Footer Section */
+footer{
+    /* margin-top:3%; */
+    /* height:410px; */
+    width:100%;
+    background-color:#172337;
+    color:white;
+    /* text-align:center; */
+    position:absolute;
+}
+
+#mainFooter{
+    /* border:2px solid red; */
+    height: 330px;
+    width:96%;
+    margin-left:2%;
+    margin-top:2%;
+}
+
+.about{
+    /* border:2px solid yellow; */
+    height:230px;
+    width:13%;
+    /* display: inline-block; */
+    float:left;
+    margin-left:5px;
+    /* margin-left:2%; */
+}
+
+.mainText{
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 4%;
+}
+
+.subText{
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.address{
+    /* margin-left:3%; */
+    width:17%;
+}
+
+.mail{
+    margin-left:5%;
+    border-right:1px solid gray;
+}
+
+.mailus{
+    margin-left:2%;
+}
+
+.block{
+    display:block;
+}
+
+#subFooter{
+    height:50px;
+    width:100%;
+    /* border: 1px solid red; */
+    position:absolute;
+}
+
+.subFootText{
+    height:50px;
+    width:15%;
+    /* border:1px solid green; */
+    float:left;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+}
